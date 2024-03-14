@@ -1,0 +1,23 @@
+{
+    "name": "slidev-addon-qrcode",
+    "devDependencies": {
+        "@slidev/cli": "^0.48.2",
+        "@slidev/theme-default": "^0.25.0"
+    },
+    "dependencies": {
+        "qr-code-styling": "^1.6.0-rc.1"
+    },
+    "scripts": {
+        "dev": "slidev example.md",
+        "build": "slidev build example.md",
+        "export": "slidev export example.md",
+        "screenshot": "slidev export example.md --format png"
+    },
+    "keywords": [
+        "slidev",
+        "slidev-addon"
+    ],
+    "files": [
+        "components"
+    ]
+}
