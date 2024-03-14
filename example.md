@@ -2,6 +2,8 @@
 layout: center
 ---
 
+<div class="flex flex-col items-center">
+
 # slidev-addon-qrcode
 
 <QRCode
@@ -14,3 +16,5 @@ layout: center
     :dotsOptions="{ type: 'extra-rounded', color: 'purple' }"
     image="/logo.svg"
 />
+
+</div>
