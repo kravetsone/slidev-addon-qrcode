@@ -2,7 +2,8 @@
     "name": "slidev-addon-qrcode",
     "devDependencies": {
         "@slidev/cli": "^0.48.2",
-        "@slidev/theme-default": "^0.25.0"
+        "@slidev/theme-default": "^0.25.0",
+        "playwright-chromium": "^1.42.1"
     },
     "dependencies": {
         "qr-code-styling": "^1.6.0-rc.1"
