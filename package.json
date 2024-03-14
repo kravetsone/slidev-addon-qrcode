@@ -1,5 +1,7 @@
 {
     "name": "slidev-addon-qrcode",
+    "version": "1.0.0",
+    "description": "QRCode component for slidev",
     "devDependencies": {
         "@slidev/cli": "^0.48.2",
         "@slidev/theme-default": "^0.25.0",
