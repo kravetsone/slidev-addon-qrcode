@@ -27,7 +27,7 @@ const props = withDefaults(defineProps<Options>(), {
         color: "#000"
     }),
     backgroundOptions: () => ({
-        color: "#fff"
+        color: "rgba(0, 0, 0, 0)"
     })
 });
 
