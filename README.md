@@ -7,6 +7,8 @@ QR-Code component for [sli.dev](https://sli.dev/)
 ```md
 ---
 layout: center
+addons:
+    - slidev-addon-qrcode
 ---
 
 <div class="flex flex-col items-center">
