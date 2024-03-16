@@ -6,7 +6,7 @@
 import QRCodeStyling, { type Options, } from 'qr-code-styling';
 
 const props = withDefaults(defineProps<Options>(), {
-    type: "canvas",
+    type: "svg",
     width: 300,
     height: 300,
     data: "",
